@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+  background: url(Villager.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: monospace;
+}
+
+/* unvisited link */
+a:link {
+  color: Black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: Black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: Indigo;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: Black;
+  text-decoration: none;
+}
+
+#grubson {
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    left: 30.7%;
+    top: 6.8%;
+}
+
+#goodbye {
+    width: 25%;
+    height: 45%;
+    position: absolute;
+    left: 10%;
+    opacity: 0;
+}
+
+#text {
+    display: block;
+    font-size: 275%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200%;
+}
+
+#gin {
+    width: 25%;
+    height: 45%;
+    position: absolute;
+    left: 10%;
+    opacity: 0;
+}
+
+#textbox {
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 700%;
+    line-height: 200%;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+#gin img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    transform: rotate(270deg);
+}
+
+#hearts {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    opacity: 75%;
+}

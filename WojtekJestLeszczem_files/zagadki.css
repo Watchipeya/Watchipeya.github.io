@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: White;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: White;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: LightPink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: White;
+  text-decoration: none;
+}
+
+.zagadka {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0)
+}
+
+.odpowiedzi {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 300%);
+}

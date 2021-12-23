@@ -1,0 +1,24 @@
+html {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.congrats {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0)
+}
+.cdkey {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 600%)
+}
+.wiesz {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 250%)
+}
